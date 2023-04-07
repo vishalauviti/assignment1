@@ -1,50 +1,19 @@
-# assignment
-MusicLibrary
 
-A Spring Boot application that allows users to perform CRUD operations on song details.
-
-Technologies Used:
-
--Spring Boot
-
--Spring Data JPA
-
--Spring Web
-
--H2 Database
+Music Library Application
 
 
-Getting Started:
+Brief Description:
 
-To get a local copy of the project up and running, follow these steps:
+  This application is a music library that allows users to organise their music collection. It is a RESTful API that allows users to perform CRUD (Create, Read, Update,   Delete) operations on songs. It was developed using Spring Boot, JDBC, JPA, Hibernate, and SQL.
 
-1.Clone the repository:
-git clone <url-of-the-repository>
+Tech Used: Spring Boot, JDBC, JPA, Hibernate, SQL
 
-2.Navigate to the project directory:
-cd MusicLibrary
+Brief Implementation, things are done:
 
-3.Build the project:
-mvn clean install
+1.Developed a RESTful API using Spring Boot, JDBC, JPA, and Hibernate for handling CRUD operations for songs.
 
-4.Run the application:
-java -jar target/MusicLibrary-0.0.1-SNAPSHOT.jar
+2.Implemented CRUD operations for songs JDBC, JPA, Hibernate, and SQL.
 
-5.Access the application at http://localhost:8080
+3.Optimised database queries and improved the performance of the application using SQL.
 
-
-Usage:
-
-The MusicLibrary application allows users to perform CRUD operations on song details. To use the application, follow these steps:
-
-1.Open the application in your web browser.
-
-2.Click on the "Add Song" button to add a new song.
-
-3.Enter the song details (title, artist, album, genre, etc.) in the form and click "Submit".
-
-4.The new song will be added to the list of songs.
-
-5.To edit a song, click on the "Edit" button next to the song you want to edit, make the necessary changes in the form, and click "Submit".
-
-6.To delete a song, click on the "Delete" button next to the song you want to delete.
+4.Tested the RESTful API endpoints using Postman.
